@@ -1,0 +1,29 @@
+body {
+    color:rgb(0, 0, 0);
+    background-color: hsl(177, 51%, 74%);
+}
+a {
+    color:rgb(106, 113, 244)
+}
+
+h1,h2 {
+    text-align:left;
+}
+
+input {
+    width: calc(20% - 20px); /* Calcula a largura para incluir o padding */
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;}
+
+button {
+    width: calc(10% - 20px); /* Calcula a largura para incluir o padding */
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    color: rgb(255, 255, 255);
+    background-color:#ff1717;
+    box-sizing: border-box;
+}
